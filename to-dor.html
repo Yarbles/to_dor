@@ -10,22 +10,31 @@
     <div class="container">
         <h1>To Do List</h1>
 
-        <form id="add-new-task">
-            <label for="new-task">What is your task?</label>
-            <input type="text" id="new-task">
-            <select id="category-options">
-              <option value="General">General</option>
-            </select>
-            <button type="submit" class="btn btn info">Add new task</button>
-        </form>
-        <h3>Tasks</h3>
-        <ul id="tasks">
-        </ul>
-        <form id="category">
-          <label for="new-category">Add new category</label>
-          <input type="text" id="new-category">
-          <button type="submit" class="btn btn-info">Add category</button>
-        </form>
+        <div class="row">
+
+          <div class="col-sm-4">
+            <form id="add-new-category">
+              <label for="new-category">Add new category</label>
+              <input type="text" id="new-category">
+              <button type="submit" class="btn btn info">Add</button>
+            </form>
+          </div>
+
+
+          <div class="col-sm-4">
+            <form id="add-task">
+              <h3 id="category-name"></h3>
+              <ul id="tasks">
+              </ul>
+              <label for="new-task">Add task</label>
+              <input type="text" id="new-task">
+              <button name="button"></button>
+            </form>
+          </div>
+
+        </div>
+        <h3 id="tasks">Tasks</h3>
+
         <h3>Categories</h3>
         <ul id="categories">
         </ul>
