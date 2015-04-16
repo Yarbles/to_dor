@@ -1,0 +1,15 @@
+#again {
+  display: none;
+}
+
+/*body {
+  background-color: #663300;
+}*/
+
+body {
+  background: linear-gradient(blue, red);
+}
+
+h1, h2, h3, label {
+  color: white;
+}
