@@ -10,6 +10,6 @@ body {
   background: linear-gradient(blue, red);
 }
 
-h1, h2, h3, label {
+h1, h2, h3, label, li, ul {
   color: white;
 }
